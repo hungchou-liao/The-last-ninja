@@ -46,9 +46,6 @@ TextMesh Pro/
 # Crashlytics generated files
 crashlytics-build.properties
 
-# Asset Meta Data
-*.meta
-
 # Mac files
 .DS_Store
 ._*
