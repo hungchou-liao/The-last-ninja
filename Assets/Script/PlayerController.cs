@@ -8,7 +8,7 @@ public class NewBehaviourScript : MonoBehaviour
     public float runSpeed = 8.0f;
     public float gravity = -11.81f;
     public float minJumpHeight = 2.0f;
-    public float maxJumpHeight = 4.0f;
+    public float maxJumpHeight = 5.0f;
     public float groundedGravity = -1f; // Small gravity to keep the player grounded on slopes
 
     public Transform cameraTransform; // Reference to the camera
@@ -26,7 +26,7 @@ public class NewBehaviourScript : MonoBehaviour
         jumpTimer = 0;
 
         // Tweak slope limit and step offset for smoother slope handling
-        controller.slopeLimit = 45f; // Max angle player can walk on
+        controller.slopeLimit = 70f; // Max angle player can walk on
         controller.stepOffset = 0.4f; // Max step height player can climb over
     }
 

@@ -8,7 +8,7 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     public Transform player; // Assign the player object in the Inspector
-    public float distanceFromPlayer = 5f; // Distance of the camera from the player
+    public float distanceFromPlayer = 7f; // Distance of the camera from the player
     public float maxVerticalAngle = 80f, minVerticalAngle = -80f; // Limits for vertical rotation
     public float turnSpeed = 100f; // Speed of camera rotation
 
